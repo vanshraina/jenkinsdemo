@@ -1,1 +1,1 @@
-Build automatic SCM Trigger
+Build SCM automatic Trigger
