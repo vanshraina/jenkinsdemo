@@ -1,1 +1,1 @@
-Hello! lets commit some changes.
+Testing SCM trigger
