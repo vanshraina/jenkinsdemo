@@ -1,1 +1,1 @@
-Testing SCM automatic trigger
+SCM automatic trigger test - 21 Feb
