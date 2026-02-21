@@ -1,1 +1,1 @@
-Testing SCM trigger
+Testing automatic build trigger
