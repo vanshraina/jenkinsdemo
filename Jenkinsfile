@@ -6,17 +6,10 @@ pipeline {
     }
 
     triggers {
-        githubPush()
+        pollSCM('H/1 * * * *')
     }
 
     stages {
-
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main', url: 'https://github.com/vanshraina/jenkinsdemo.git'
-            }
-        }
-
         stage('Build Project') {
             steps {
                 bat 'mvn clean install'
